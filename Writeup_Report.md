@@ -59,3 +59,5 @@ in the `challenge.mp4` video.
 Few examples of images with detected lane lines:
 [image1]: ./img_dst/solidWhiteCurve.jpg "solidWhiteCurve"
 [image2]: ./img_dst/solidYellowCurve.jpg "solidYellowCurve"
+![alt text][image1]
+![alt text][image2]
