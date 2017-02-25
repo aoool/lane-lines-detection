@@ -1,2 +1,22 @@
-# lane-lines-detection
-Udacity: Self-Driving Car Engineer Nanodegree | Project: Finding Lane Lines on the Road
+## Finding Lane Lines on the Road (Self-Driving Car Engineer Nanodegree)
+
+This repository contains code, source and resuling images and videos
+with lane lines detected. The code is in Jupyter notebook 
+[`Lane_Lines_Detection.ipynb`](./Lane_Lines_Detection.ipynb). Please, follow 
+the instructions below to prepare an environment to run this notebook.
+There is also [`Writeup_Report.md`](./Writeup_Report.md) where the pros and cons of the implementation described.
+
+#### Preparing Environment
+In order to provide all the dependencies to the code in Jupyter notebook, 
+build a docker image with the following command:
+```bash
+docker build --tag udacity/carnd-term1-starter-kit:latest --file Dockerfile .
+```
+Then start a docker container with:
+```bash
+docker run --interactive --tty --rm --publish 8888:8888 --volume $PWD:/src udacity/carnd-term1-starter-kit:latest
+```
+Note, that the current directory will become your working directory in Jupyter notebook.
+
+Then, copy a link from the console to your browser and start exploring 
+the source code. The link will be similar but not equal to `http://localhost:8888/?token=eb26e4a2b935c384dc3e0230a8181984f07da6be9df0c1b8`.

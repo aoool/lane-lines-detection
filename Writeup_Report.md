@@ -1,6 +1,6 @@
-#**Finding Lane Lines on the Road** 
+# Finding Lane Lines on the Road 
 
-###Author: Sergey Morozov
+### Author: Sergey Morozov
 
 The goal of the project is to identify lane lines on images and on video streams. 
 The implementation is provided in 
