@@ -19,4 +19,9 @@ docker run --interactive --tty --rm --publish 8888:8888 --volume $PWD:/src udaci
 Note, that the current directory will become your working directory in Jupyter notebook.
 
 Then, copy a link from the console to your browser and start exploring 
-the source code. The link will be similar but not equal to `http://localhost:8888/?token=eb26e4a2b935c384dc3e0230a8181984f07da6be9df0c1b8`.
+the source code. The link will be similar but not equal to 
+`http://localhost:8888/?token=eb26e4a2b935c384dc3e0230a8181984f07da6be9df0c1b8`.
+
+#### Notice
+Dockerfile and some functions from [`Lane_Lines_Detection.ipynb`](./Lane_Lines_Detection.ipynb) are
+provided by Udacity.com.[
