@@ -24,4 +24,4 @@ the source code. The link will be similar but not equal to
 
 #### Notice
 Dockerfile and some functions from [`Lane_Lines_Detection.ipynb`](./Lane_Lines_Detection.ipynb) are
-provided by Udacity.com.[
+provided by [Udacity.com](https://www.udacity.com).
