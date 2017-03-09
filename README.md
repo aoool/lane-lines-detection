@@ -10,11 +10,11 @@ There is also [`Writeup_Report.md`](./Writeup_Report.md) where the pros and cons
 In order to provide all the dependencies to the code in Jupyter notebook, 
 build a docker image with the following command:
 ```bash
-docker build --tag udacity/carnd-term1-starter-kit:latest --file Dockerfile .
+docker build --tag udacity/carnd-term1-starter-kit:patched --file Dockerfile .
 ```
 Then start a docker container with:
 ```bash
-docker run --interactive --tty --rm --publish 8888:8888 --volume $PWD:/src udacity/carnd-term1-starter-kit:latest
+docker run --interactive --tty --rm --publish 8888:8888 --volume $PWD:/src udacity/carnd-term1-starter-kit:patched
 ```
 Note, that the current directory will become your working directory in Jupyter notebook.
 
