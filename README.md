@@ -4,7 +4,7 @@ This repository contains code, source and resuling images and videos
 with lane lines detected. The code is in Jupyter notebook 
 [`Lane_Lines_Detection.ipynb`](./Lane_Lines_Detection.ipynb). Please, follow 
 the instructions below to prepare an environment to run this notebook.
-There is also [`Writeup_Report.md`](./Writeup_Report.md) where the pros and cons of the implementation described.
+There is also [`Writeup.md`](./Writeup.md) where the pros and cons of the implementation described.
 
 #### Preparing Environment
 In order to provide all the dependencies to the code in Jupyter notebook, 
