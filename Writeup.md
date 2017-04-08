@@ -11,6 +11,11 @@ with detected lane lines are in [`img_dst`](./img_dst) and
 [`vid_dst`](./vid_dst) correspondingly. There is also [`README.md`](./README.md) 
 with the description of how to run the code from Jupyter notebook.
 
+[//]: # (Image References)
+
+[image1]: ./img_dst/solidWhiteCurve.jpg "solidWhiteCurve"
+[image2]: ./img_dst/solidYellowCurve.jpg "solidYellowCurve"
+
 ---
 ### Program Description
 Lane lines detecting pipeline consists of the following steps:
@@ -57,7 +62,5 @@ in the `challenge.mp4` video.
     
 ### Resulting Images
 Few examples of images with detected lane lines:
-[image1]: ./img_dst/solidWhiteCurve.jpg "solidWhiteCurve"
-[image2]: ./img_dst/solidYellowCurve.jpg "solidYellowCurve"
 ![alt text][image1]
 ![alt text][image2]
